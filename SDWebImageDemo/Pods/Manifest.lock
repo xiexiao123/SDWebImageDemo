@@ -1,0 +1,21 @@
+PODS:
+  - ImageKit (1.0.10)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4):
+    - ImageKit
+
+DEPENDENCIES:
+  - SDWebImage (from `../../sdwebimage/SDWebImage.podspec`)
+
+EXTERNAL SOURCES:
+  SDWebImage:
+    :path: ../../sdwebimage/SDWebImage.podspec
+
+SPEC CHECKSUMS:
+  ImageKit: 2820d01f4c9e27ac043db201106040ae340fdd3d
+  SDWebImage: 6bd5823f0e3ab8f16b4148db3523bc7a33d01bbf
+
+PODFILE CHECKSUM: b94e89970dda69e01e5a8f70e1f59d5157145dff
+
+COCOAPODS: 1.3.1
