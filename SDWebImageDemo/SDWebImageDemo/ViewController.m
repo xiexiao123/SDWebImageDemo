@@ -49,7 +49,12 @@
 
 - (void)urlCanceled {
     
-    [self.firstImageView sd_setImageWithURL:[NSURL URLWithString:@"http://p0.meituan.net/ugcpic/3bc6780bd1b3dffa71463150f3b16bac"] placeholderImage:[UIImage imageNamed:@"IMG_2120.JPG"]];
+    [[SDImageCache sharedImageCache] clearDisk];
+    [[SDImageCache sharedImageCache] clearMemory];
+    
+    [self.firstImageView sd_setImageWithURL:[NSURL URLWithString:@"http://p0.meituan.net/ugcpic/3bc6780bd1b3dffa71463150f3b16bac"] placeholderImage:[UIImage imageNamed:@"IMG_2120.JPG"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        
+    }];
     
     [self.secondImageView sd_setImageWithURL:[NSURL URLWithString:@"http://p0.meituan.net/ugcpic/3bc6780bd1b3dffa71463150f3b16bac"] placeholderImage:[UIImage imageNamed:@"IMG_2120.JPG"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         
@@ -67,12 +72,13 @@
         
     }];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.firstImageView sd_setImageWithURL:[NSURL URLWithString:@"http://p0.meituan.net/ugcpic/c8807f9c5b1ff5abf8fe1b611de21356"] placeholderImage:[UIImage imageNamed:@"IMG_2120.JPG"]];
         [self.forthImageView sd_setImageWithURL:[NSURL URLWithString:@"http://p0.meituan.net/ugcpic/c8807f9c5b1ff5abf8fe1b611de21356"] placeholderImage:[UIImage imageNamed:@"IMG_2120.JPG"]];
     });
     
-//    [[SDImageCache sharedImageCache] clearDisk];
+    [[SDImageCache sharedImageCache] clearDisk];
+    [[SDImageCache sharedImageCache] clearMemory];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
