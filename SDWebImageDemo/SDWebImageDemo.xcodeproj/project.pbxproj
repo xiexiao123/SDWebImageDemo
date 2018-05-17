@@ -13,6 +13,7 @@
 		139746AD20AC07DE000EF822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139746AC20AC07DE000EF822 /* Assets.xcassets */; };
 		139746B020AC07DE000EF822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139746AE20AC07DE000EF822 /* LaunchScreen.storyboard */; };
 		139746B320AC07DE000EF822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 139746B220AC07DE000EF822 /* main.m */; };
+		139746F620AC10FC000EF822 /* IMG_2120.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 139746F520AC10FC000EF822 /* IMG_2120.JPG */; };
 		DBCF3C83FA18341010B3D7F5 /* libPods-SDWebImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EDDD914C302B1AD1F3CB0A /* libPods-SDWebImageDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		139746AF20AC07DE000EF822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		139746B120AC07DE000EF822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		139746B220AC07DE000EF822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		139746F520AC10FC000EF822 /* IMG_2120.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2120.JPG; sourceTree = "<group>"; };
 		8069926BBB64805232DEE16E /* Pods-SDWebImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDWebImageDemo/Pods-SDWebImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F0EDDD914C302B1AD1F3CB0A /* libPods-SDWebImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDWebImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81E7B03DB7AA70B7A5998F9 /* Pods-SDWebImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDWebImageDemo/Pods-SDWebImageDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				139746AE20AC07DE000EF822 /* LaunchScreen.storyboard */,
 				139746B120AC07DE000EF822 /* Info.plist */,
 				139746B220AC07DE000EF822 /* main.m */,
+				139746F520AC10FC000EF822 /* IMG_2120.JPG */,
 			);
 			path = SDWebImageDemo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139746F620AC10FC000EF822 /* IMG_2120.JPG in Resources */,
 				139746B020AC07DE000EF822 /* LaunchScreen.storyboard in Resources */,
 				139746AD20AC07DE000EF822 /* Assets.xcassets in Resources */,
 				139746AB20AC07DC000EF822 /* Main.storyboard in Resources */,
@@ -372,7 +376,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SDWebImageDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meituandianping.Courser.SDWebImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -386,7 +393,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SDWebImageDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meituandianping.Courser.SDWebImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
