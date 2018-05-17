@@ -1,1 +1,1 @@
-../../../../../../sdwebimagecopy/SDWebImage/UIImageView+HighlightedWebCache.h
+../../../../../../sdwebimage/SDWebImage/UIImageView+HighlightedWebCache.h

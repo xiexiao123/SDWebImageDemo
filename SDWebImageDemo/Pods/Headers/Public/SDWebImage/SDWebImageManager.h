@@ -1,1 +1,1 @@
-../../../../../../sdwebimagecopy/SDWebImage/SDWebImageManager.h
+../../../../../../sdwebimage/SDWebImage/SDWebImageManager.h

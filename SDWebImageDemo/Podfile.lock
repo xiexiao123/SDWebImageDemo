@@ -6,16 +6,16 @@ PODS:
     - ImageKit
 
 DEPENDENCIES:
-  - SDWebImage (from `../../sdwebimagecopy/SDWebImage.podspec`)
+  - SDWebImage (from `../../sdwebimage/SDWebImage.podspec`)
 
 EXTERNAL SOURCES:
   SDWebImage:
-    :path: ../../sdwebimagecopy/SDWebImage.podspec
+    :path: ../../sdwebimage/SDWebImage.podspec
 
 SPEC CHECKSUMS:
   ImageKit: 2820d01f4c9e27ac043db201106040ae340fdd3d
   SDWebImage: 6bd5823f0e3ab8f16b4148db3523bc7a33d01bbf
 
-PODFILE CHECKSUM: 2f509a9c141b4e966a7c497ed20939a5fffb26f4
+PODFILE CHECKSUM: b94e89970dda69e01e5a8f70e1f59d5157145dff
 
 COCOAPODS: 1.3.1

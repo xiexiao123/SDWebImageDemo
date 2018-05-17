@@ -1,1 +1,1 @@
-../../../../../../sdwebimagecopy/SDWebImage/UIImage+MultiFormat.h
+../../../../../../sdwebimage/SDWebImage/UIImage+MultiFormat.h

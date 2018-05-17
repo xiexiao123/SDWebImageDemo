@@ -1,1 +1,1 @@
-../../../../../../sdwebimagecopy/SDWebImage/SDWebImageDownloaderOperation.h
+../../../../../../sdwebimage/SDWebImage/SDWebImageDownloaderOperation.h

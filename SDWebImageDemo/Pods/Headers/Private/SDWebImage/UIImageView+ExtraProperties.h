@@ -1,1 +1,1 @@
-../../../../../../sdwebimagecopy/SDWebImage/UIImageView+ExtraProperties.h
+../../../../../../sdwebimage/SDWebImage/UIImageView+ExtraProperties.h
